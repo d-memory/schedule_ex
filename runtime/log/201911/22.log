@@ -1,0 +1,2659 @@
+---------------------------------------------------------------
+[ 2019-11-22T10:12:03+08:00 ] 127.0.0.1 GET hospital.usiyi.com/Eehq4dG9pH.php/example/bootstraptable?ref=addtabs
+[运行时间：0.407281s] [吞吐率：2.46req/s] [内存消耗：2,461.27kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000037s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.008798s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008823s ]
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'example.bootstraptable',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573608441,1574039749; PHPSESSID=tu36r1hssd7ae2mjjdbfbpei02; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1574041372; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://hospital.usiyi.com/Eehq4dG9pH.php/general/config?lang=en&ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'hospital.usiyi.com',
+)
+[ info ] [ PARAM ] array (
+  'ref' => 'addtabs',
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.007237s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\WWW\hospital\public/../application/common\view\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000537s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-22T10:12:05+08:00 ] 127.0.0.1 GET hospital.usiyi.com/Eehq4dG9pH.php/index/login?url=%2FEehq4dG9pH.php%2Fexample%2Fbootstraptable%3Fref%3Daddtabs
+[运行时间：0.066085s] [吞吐率：15.13req/s] [内存消耗：2,734.63kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000037s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.003081s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003097s ]
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573608441,1574039749; PHPSESSID=tu36r1hssd7ae2mjjdbfbpei02; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1574041372; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://hospital.usiyi.com/Eehq4dG9pH.php/example/bootstraptable?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'hospital.usiyi.com',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/Eehq4dG9pH.php/example/bootstraptable?ref=addtabs',
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001434s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\phpStudy\WWW\hospital\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\hospital\public/../application/admin\view\index\login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000354s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-22T10:12:05+08:00 ] 127.0.0.1 GET hospital.usiyi.com/index.php?s=/captcha
+[运行时间：0.086455s] [吞吐率：11.57req/s] [内存消耗：1,875.68kb] [文件加载：111]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000074s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.003326s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003346s ]
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573608441,1574039749; PHPSESSID=tu36r1hssd7ae2mjjdbfbpei02; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1574041372; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://hospital.usiyi.com/Eehq4dG9pH.php/index/login?url=%2FEehq4dG9pH.php%2Fexample%2Fbootstraptable%3Fref%3Daddtabs',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'hospital.usiyi.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\phpStudy\WWW\hospital\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-22T10:12:05+08:00 ] 127.0.0.1 GET hospital.usiyi.com/Eehq4dG9pH.php/ajax/lang?callback=define&controllername=index&v=1574388725
+[运行时间：0.082764s] [吞吐率：12.08req/s] [内存消耗：2,605.11kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000034s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.005350s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005377s ]
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573608441,1574039749; PHPSESSID=tu36r1hssd7ae2mjjdbfbpei02; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1574041372; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://hospital.usiyi.com/Eehq4dG9pH.php/index/login?url=%2FEehq4dG9pH.php%2Fexample%2Fbootstraptable%3Fref%3Daddtabs',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'hospital.usiyi.com',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1574388725',
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004149s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\phpStudy\WWW\hospital\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000924s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-22T10:12:16+08:00 ] 127.0.0.1 POST hospital.usiyi.com/Eehq4dG9pH.php/index/login?url=%2FEehq4dG9pH.php%2Fexample%2Fbootstraptable%3Fref%3Daddtabs
+[运行时间：0.119536s] [吞吐率：8.37req/s] [内存消耗：3,308.06kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002408s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002435s ]
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573608441,1574039749; PHPSESSID=tu36r1hssd7ae2mjjdbfbpei02; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1574041372; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://hospital.usiyi.com/Eehq4dG9pH.php/index/login?url=%2FEehq4dG9pH.php%2Fexample%2Fbootstraptable%3Fref%3Daddtabs',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://hospital.usiyi.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '88',
+  'connection' => 'close',
+  'host' => 'hospital.usiyi.com',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/Eehq4dG9pH.php/example/bootstraptable?ref=addtabs',
+  '__token__' => 'd2a97d005b4f76a594b02a3d1f71d3ad',
+  'username' => 'admin',
+  'password' => 'admin123',
+  'captcha' => 'ptck',
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002526s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\phpStudy\WWW\hospital\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.015707s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000893s ] mysql:host=127.0.0.1;dbname=hospital;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin` [ RunTime:0.011726s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000805s ]
+[ sql ] [ SQL ] UPDATE `fa_admin`  SET `logintime`=1574388736,`token`='ccf11734-ba61-4ca8-b30d-bafdff78f517',`updatetime`=1574388736  WHERE  `id` = 1 [ RunTime:0.003655s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.012150s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('登录' , '{\"url\":\"\\/Eehq4dG9pH.php\\/example\\/bootstraptable?ref=addtabs\",\"__token__\":\"d2a97d005b4f76a594b02a3d1f71d3ad\",\"username\":\"admin\",\"captcha\":\"ptck\"}' , '/Eehq4dG9pH.php/index/login?url=%2FEehq4dG9pH.php%2Fexample%2Fbootstraptable%3Fref%3Daddtabs' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36' , '127.0.0.1' , 1574388736) [ RunTime:0.002799s ]
+---------------------------------------------------------------
+[ 2019-11-22T10:12:16+08:00 ] 127.0.0.1 GET hospital.usiyi.com/Eehq4dG9pH.php/example/bootstraptable?ref=addtabs
+[运行时间：0.105896s] [吞吐率：9.44req/s] [内存消耗：3,144.15kb] [文件加载：131]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000031s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.003362s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003388s ]
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'example.bootstraptable',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573608441,1574039749; PHPSESSID=tu36r1hssd7ae2mjjdbfbpei02; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1574041372; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://hospital.usiyi.com/Eehq4dG9pH.php/index/login?url=%2FEehq4dG9pH.php%2Fexample%2Fbootstraptable%3Fref%3Daddtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'hospital.usiyi.com',
+)
+[ info ] [ PARAM ] array (
+  'ref' => 'addtabs',
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001993s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000402s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000795s ] mysql:host=127.0.0.1;dbname=hospital;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.012296s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.002118s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.014531s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002319s ]
+---------------------------------------------------------------
+[ 2019-11-22T10:12:16+08:00 ] 127.0.0.1 GET hospital.usiyi.com/Eehq4dG9pH.php/index/index
+[运行时间：0.152365s] [吞吐率：6.56req/s] [内存消耗：3,603.49kb] [文件加载：146]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.003701s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003728s ]
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573608441,1574039749; PHPSESSID=tu36r1hssd7ae2mjjdbfbpei02; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1574041372; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://hospital.usiyi.com/Eehq4dG9pH.php/index/login?url=%2FEehq4dG9pH.php%2Fexample%2Fbootstraptable%3Fref%3Daddtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'hospital.usiyi.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001358s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\phpStudy\WWW\hospital\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\hospital\public/../application/admin\view\index\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'navlist',
+  7 => 'fixedmenu',
+  8 => 'referermenu',
+  9 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000577s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000819s ] mysql:host=127.0.0.1;dbname=hospital;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.006059s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000552s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.007476s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002004s ]
+[ sql ] [ SQL ] SELECT `name`,`pid` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `ismenu` = 0  AND `name` LIKE '%/index' [ RunTime:0.000773s ]
+---------------------------------------------------------------
+[ 2019-11-22T10:12:16+08:00 ] 127.0.0.1 GET hospital.usiyi.com/Eehq4dG9pH.php/example/bootstraptable?addtabs=1
+[运行时间：0.112722s] [吞吐率：8.87req/s] [内存消耗：3,409.33kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004469s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004493s ]
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'example.bootstraptable',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573608441,1574039749; PHPSESSID=tu36r1hssd7ae2mjjdbfbpei02; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1574041372; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://hospital.usiyi.com/Eehq4dG9pH.php/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'hospital.usiyi.com',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002389s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\example\Bootstraptable->index[ D:\phpStudy\WWW\hospital\application\admin\controller\example\Bootstraptable.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\hospital\public/../application/admin\view\example\bootstraptable\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001882s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001045s ] mysql:host=127.0.0.1;dbname=hospital;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.008627s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000759s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.012114s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.003060s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'example/bootstraptable' LIMIT 1 [ RunTime:0.000688s ]
+---------------------------------------------------------------
+[ 2019-11-22T10:12:16+08:00 ] 127.0.0.1 GET hospital.usiyi.com/Eehq4dG9pH.php/ajax/lang?callback=define&controllername=index&v=1574388736
+[运行时间：0.089386s] [吞吐率：11.19req/s] [内存消耗：2,605.98kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000036s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004574s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004721s ]
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573608441,1574039749; PHPSESSID=tu36r1hssd7ae2mjjdbfbpei02; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1574041372; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://hospital.usiyi.com/Eehq4dG9pH.php/index/index',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'hospital.usiyi.com',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1574388736',
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004015s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\phpStudy\WWW\hospital\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000593s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-22T10:12:17+08:00 ] 127.0.0.1 GET hospital.usiyi.com/Eehq4dG9pH.php/ajax/lang?callback=define&controllername=example.bootstraptable&v=1574388736
+[运行时间：0.102555s] [吞吐率：9.75req/s] [内存消耗：2,601.56kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000033s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.006943s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006971s ]
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573608441,1574039749; PHPSESSID=tu36r1hssd7ae2mjjdbfbpei02; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1574041372; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://hospital.usiyi.com/Eehq4dG9pH.php/example/bootstraptable?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'hospital.usiyi.com',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'example.bootstraptable',
+  'v' => '1574388736',
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003709s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\phpStudy\WWW\hospital\application\admin\controller\Ajax.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001002s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-22T10:12:17+08:00 ] 127.0.0.1 GET hospital.usiyi.com/Eehq4dG9pH.php/general/config?addtabs=1
+[运行时间：0.156982s] [吞吐率：6.37req/s] [内存消耗：3,483.10kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.003961s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003993s ]
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'general.config',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573608441,1574039749; PHPSESSID=tu36r1hssd7ae2mjjdbfbpei02; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1574041372; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://hospital.usiyi.com/Eehq4dG9pH.php/general/config?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'hospital.usiyi.com',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003213s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin/lang/zh-cn/general/config.php
+[ info ] [ RUN ] app\admin\controller\general\Config->index[ D:\phpStudy\WWW\hospital\application\admin\controller\general\Config.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\hospital\public/../application/admin\view\general\config\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'siteList',
+  6 => 'typeList',
+  7 => 'ruleList',
+  8 => 'groupList',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000593s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001100s ] mysql:host=127.0.0.1;dbname=hospital;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.012400s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001778s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.009543s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001753s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_config` [ RunTime:0.013466s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_config` [ RunTime:0.001009s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'general/config' LIMIT 1 [ RunTime:0.000926s ]
+---------------------------------------------------------------
+[ 2019-11-22T10:12:17+08:00 ] 127.0.0.1 GET hospital.usiyi.com/Eehq4dG9pH.php/example/bootstraptable/searchlist?search=a&field=row[user_id]
+[运行时间：0.085382s] [吞吐率：11.71req/s] [内存消耗：3,250.59kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004021s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004046s ]
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'example.bootstraptable',
+    2 => 'searchlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573608441,1574039749; PHPSESSID=tu36r1hssd7ae2mjjdbfbpei02; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1574041372; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://hospital.usiyi.com/Eehq4dG9pH.php/example/bootstraptable?addtabs=1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'hospital.usiyi.com',
+)
+[ info ] [ PARAM ] array (
+  'search' => 'a',
+  'field' => 'row[user_id]',
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003756s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\example\Bootstraptable->searchlist[ D:\phpStudy\WWW\hospital\application\admin\controller\example\Bootstraptable.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000584s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001044s ] mysql:host=127.0.0.1;dbname=hospital;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.008489s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_admin_log` LIMIT 10 [ RunTime:0.000856s ]
+---------------------------------------------------------------
+[ 2019-11-22T10:12:17+08:00 ] 127.0.0.1 GET hospital.usiyi.com/Eehq4dG9pH.php/example/bootstraptable/cxselect?type=group
+[运行时间：0.120837s] [吞吐率：8.28req/s] [内存消耗：3,261.10kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004142s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004163s ]
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'example.bootstraptable',
+    2 => 'cxselect',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573608441,1574039749; PHPSESSID=tu36r1hssd7ae2mjjdbfbpei02; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1574041372; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://hospital.usiyi.com/Eehq4dG9pH.php/example/bootstraptable?addtabs=1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'hospital.usiyi.com',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'group',
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002523s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\example\Bootstraptable->cxselect[ D:\phpStudy\WWW\hospital\application\admin\controller\example\Bootstraptable.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001025s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001489s ] mysql:host=127.0.0.1;dbname=hospital;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.009132s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001601s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.009343s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000715s ]
+[ sql ] [ SQL ] SELECT id as value,`name` FROM `fa_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000590s ]
+---------------------------------------------------------------
+[ 2019-11-22T10:12:18+08:00 ] 127.0.0.1 GET hospital.usiyi.com/Eehq4dG9pH.php/example/bootstraptable/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%22admin_id%22%3A1%7D&op=%7B%22admin_id%22%3A%22%3D%22%7D&_=1574388736894
+[运行时间：0.104674s] [吞吐率：9.55req/s] [内存消耗：3,421.59kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.003646s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003662s ]
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'example.bootstraptable',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573608441,1574039749; PHPSESSID=tu36r1hssd7ae2mjjdbfbpei02; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1574041372; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://hospital.usiyi.com/Eehq4dG9pH.php/example/bootstraptable?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'hospital.usiyi.com',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{"admin_id":1}',
+  'op' => '{"admin_id":"="}',
+  '_' => '1574388736894',
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001475s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\example\Bootstraptable->index[ D:\phpStudy\WWW\hospital\application\admin\controller\example\Bootstraptable.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000505s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000898s ] mysql:host=127.0.0.1;dbname=hospital;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.005986s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000619s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.006421s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001426s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.007600s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_admin_log` WHERE  (  `admin_id` = 1 ) ORDER BY `id` DESC LIMIT 1 [ RunTime:0.001502s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_admin_log` WHERE  (  `admin_id` = 1 ) ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000724s ]
+---------------------------------------------------------------
+[ 2019-11-22T10:12:18+08:00 ] 127.0.0.1 GET hospital.usiyi.com/Eehq4dG9pH.php/example/bootstraptable/cxselect?type=group
+[运行时间：0.096946s] [吞吐率：10.32req/s] [内存消耗：3,261.52kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000383s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.005685s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005710s ]
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'example.bootstraptable',
+    2 => 'cxselect',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573608441,1574039749; PHPSESSID=tu36r1hssd7ae2mjjdbfbpei02; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1574041372; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://hospital.usiyi.com/Eehq4dG9pH.php/example/bootstraptable?addtabs=1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'hospital.usiyi.com',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'group',
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001885s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\example\Bootstraptable->cxselect[ D:\phpStudy\WWW\hospital\application\admin\controller\example\Bootstraptable.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000353s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003471s ] mysql:host=127.0.0.1;dbname=hospital;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.008410s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000669s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.006627s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000587s ]
+[ sql ] [ SQL ] SELECT id as value,`name` FROM `fa_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000472s ]
+---------------------------------------------------------------
+[ 2019-11-22T10:12:18+08:00 ] 127.0.0.1 GET hospital.usiyi.com/Eehq4dG9pH.php/ajax/lang?callback=define&controllername=general.config&v=1574388737
+[运行时间：0.065394s] [吞吐率：15.29req/s] [内存消耗：2,604.95kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002872s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002888s ]
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573608441,1574039749; PHPSESSID=tu36r1hssd7ae2mjjdbfbpei02; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1574041372; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://hospital.usiyi.com/Eehq4dG9pH.php/general/config?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'hospital.usiyi.com',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'general.config',
+  'v' => '1574388737',
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001634s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\phpStudy\WWW\hospital\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin/lang/zh-cn/general/config.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000545s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-22T10:12:30+08:00 ] 127.0.0.1 GET hospital.usiyi.com/Eehq4dG9pH.php/example/customsearch?addtabs=1
+[运行时间：0.106011s] [吞吐率：9.43req/s] [内存消耗：3,408.61kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.003016s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003032s ]
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'example.customsearch',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573608441,1574039749; PHPSESSID=tu36r1hssd7ae2mjjdbfbpei02; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1574041372; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://hospital.usiyi.com/Eehq4dG9pH.php/example/customsearch?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'hospital.usiyi.com',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005380s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\common\controller\Backend->index[ D:\phpStudy\WWW\hospital\application\admin\library\traits\Backend.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\hospital\public/../application/admin\view\example\customsearch\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'ipList',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000620s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001578s ] mysql:host=127.0.0.1;dbname=hospital;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.006514s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000661s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.007041s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002210s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.006720s ]
+[ sql ] [ SQL ] SELECT `ip`,ip as aa FROM `fa_admin_log` WHERE  `createtime` >  1571191950 GROUP BY `ip` [ RunTime:0.001024s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'example/customsearch' LIMIT 1 [ RunTime:0.000687s ]
+---------------------------------------------------------------
+[ 2019-11-22T10:12:30+08:00 ] 127.0.0.1 GET hospital.usiyi.com/Eehq4dG9pH.php/ajax/lang?callback=define&controllername=example.customsearch&v=1574388750
+[运行时间：0.061285s] [吞吐率：16.32req/s] [内存消耗：2,601.65kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.003153s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003178s ]
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573608441,1574039749; PHPSESSID=tu36r1hssd7ae2mjjdbfbpei02; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1574041372; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://hospital.usiyi.com/Eehq4dG9pH.php/example/customsearch?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'hospital.usiyi.com',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'example.customsearch',
+  'v' => '1574388750',
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001954s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\phpStudy\WWW\hospital\application\admin\controller\Ajax.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000373s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-22T10:12:31+08:00 ] 127.0.0.1 GET hospital.usiyi.com/Eehq4dG9pH.php/example/customsearch/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1574388750679
+[运行时间：0.103312s] [吞吐率：9.68req/s] [内存消耗：3,442.88kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000035s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002417s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002432s ]
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'example.customsearch',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573608441,1574039749; PHPSESSID=tu36r1hssd7ae2mjjdbfbpei02; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1574041372; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://hospital.usiyi.com/Eehq4dG9pH.php/example/customsearch?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'hospital.usiyi.com',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1574388750679',
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002755s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\common\controller\Backend->index[ D:\phpStudy\WWW\hospital\application\admin\library\traits\Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000396s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001485s ] mysql:host=127.0.0.1;dbname=hospital;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.012639s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000662s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.007677s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001424s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.008362s ]
+[ sql ] [ SQL ] SELECT `ip`,ip as aa FROM `fa_admin_log` WHERE  `createtime` >  1571191951 GROUP BY `ip` [ RunTime:0.001187s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_admin_log` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000677s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_admin_log` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.001015s ]
+---------------------------------------------------------------
+[ 2019-11-22T10:12:31+08:00 ] 127.0.0.1 GET hospital.usiyi.com/Eehq4dG9pH.php/example/bootstraptable/cxselect?type=group
+[运行时间：0.087748s] [吞吐率：11.40req/s] [内存消耗：3,261.10kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.003364s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003381s ]
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'example.bootstraptable',
+    2 => 'cxselect',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573608441,1574039749; PHPSESSID=tu36r1hssd7ae2mjjdbfbpei02; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1574041372; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://hospital.usiyi.com/Eehq4dG9pH.php/example/customsearch?addtabs=1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'hospital.usiyi.com',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'group',
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001485s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\example\Bootstraptable->cxselect[ D:\phpStudy\WWW\hospital\application\admin\controller\example\Bootstraptable.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000463s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000761s ] mysql:host=127.0.0.1;dbname=hospital;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.007496s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000476s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.006168s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000865s ]
+[ sql ] [ SQL ] SELECT id as value,`name` FROM `fa_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000497s ]
+---------------------------------------------------------------
+[ 2019-11-22T10:15:31+08:00 ] 127.0.0.1 GET hospital.usiyi.com/Eehq4dG9pH.php/example/bootstraptable/cxselect?type=admin&group_id=1
+[运行时间：0.078345s] [吞吐率：12.76req/s] [内存消耗：3,263.30kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002557s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002571s ]
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'example.bootstraptable',
+    2 => 'cxselect',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573608441,1574039749; PHPSESSID=tu36r1hssd7ae2mjjdbfbpei02; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1574041372; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://hospital.usiyi.com/Eehq4dG9pH.php/example/customsearch?addtabs=1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'hospital.usiyi.com',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'admin',
+  'group_id' => '1',
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001429s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\example\Bootstraptable->cxselect[ D:\phpStudy\WWW\hospital\application\admin\controller\example\Bootstraptable.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000390s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001587s ] mysql:host=127.0.0.1;dbname=hospital;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.006948s ]
+[ sql ] [ SQL ] SELECT `uid` FROM `fa_auth_group_access` WHERE  `group_id` IN (1) [ RunTime:0.000602s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin` [ RunTime:0.006200s ]
+[ sql ] [ SQL ] SELECT id as value,username AS name FROM `fa_admin` WHERE  `id` IN (1) [ RunTime:0.000518s ]
+---------------------------------------------------------------
+[ 2019-11-22T10:15:34+08:00 ] 127.0.0.1 GET hospital.usiyi.com/Eehq4dG9pH.php/example/bootstraptable/cxselect?type=admin&group_id=3
+[运行时间：0.065504s] [吞吐率：15.27req/s] [内存消耗：3,262.03kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002510s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002526s ]
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'example.bootstraptable',
+    2 => 'cxselect',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573608441,1574039749; PHPSESSID=tu36r1hssd7ae2mjjdbfbpei02; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1574041372; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://hospital.usiyi.com/Eehq4dG9pH.php/example/customsearch?addtabs=1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'hospital.usiyi.com',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'admin',
+  'group_id' => '3',
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001430s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\example\Bootstraptable->cxselect[ D:\phpStudy\WWW\hospital\application\admin\controller\example\Bootstraptable.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000348s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001589s ] mysql:host=127.0.0.1;dbname=hospital;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.005834s ]
+[ sql ] [ SQL ] SELECT `uid` FROM `fa_auth_group_access` WHERE  `group_id` IN (3) [ RunTime:0.000610s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin` [ RunTime:0.006408s ]
+[ sql ] [ SQL ] SELECT id as value,username AS name FROM `fa_admin` WHERE  `id` IN ('') [ RunTime:0.000526s ]
+---------------------------------------------------------------
+[ 2019-11-22T10:15:37+08:00 ] 127.0.0.1 POST hospital.usiyi.com/Eehq4dG9pH.php/auth/admin/index
+[运行时间：0.124672s] [吞吐率：8.02req/s] [内存消耗：3,479.79kb] [文件加载：139]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002238s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002253s ]
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573608441,1574039749; PHPSESSID=tu36r1hssd7ae2mjjdbfbpei02; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1574041372; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://hospital.usiyi.com/Eehq4dG9pH.php/example/customsearch?addtabs=1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://hospital.usiyi.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '193',
+  'connection' => 'close',
+  'host' => 'hospital.usiyi.com',
+)
+[ info ] [ PARAM ] array (
+  'q_word' => 
+  array (
+    0 => '',
+  ),
+  'pageNumber' => '1',
+  'pageSize' => '10',
+  'andOr' => 'AND',
+  'orderBy' => 
+  array (
+    0 => 
+    array (
+      0 => 'username',
+      1 => 'ASC',
+    ),
+  ),
+  'searchTable' => 'tbl',
+  'showField' => 'username',
+  'keyField' => 'username',
+  'searchField' => 
+  array (
+    0 => 'username',
+  ),
+  'username' => '',
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003377s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin/lang/zh-cn/auth/admin.php
+[ info ] [ RUN ] app\admin\controller\auth\Admin->index[ D:\phpStudy\WWW\hospital\application\admin\controller\auth\Admin.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.011820s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001612s ] mysql:host=127.0.0.1;dbname=hospital;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.006404s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000672s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.006504s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001503s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin` [ RunTime:0.007526s ]
+[ sql ] [ SQL ] SELECT `id` FROM `fa_admin` [ RunTime:0.000439s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.005966s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000589s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000571s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_admin` WHERE  (  `username` LIKE '%%' ) LIMIT 1 [ RunTime:0.000598s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_admin` WHERE  (  `username` LIKE '%%' ) ORDER BY `username` ASC LIMIT 0,10 [ RunTime:0.000667s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.007483s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('权限管理 管理员管理 查看' , '{\"q_word\":[\"\"],\"pageNumber\":\"1\",\"pageSize\":\"10\",\"andOr\":\"AND\",\"orderBy\":[[\"username\",\"ASC\"]],\"searchTable\":\"tbl\",\"showField\":\"username\",\"keyField\":\"username\",\"searchField\":[\"username\"],\"username\":\"\"}' , '/Eehq4dG9pH.php/auth/admin/index' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36' , '127.0.0.1' , 1574388937) [ RunTime:0.002676s ]
+---------------------------------------------------------------
+[ 2019-11-22T10:15:38+08:00 ] 127.0.0.1 POST hospital.usiyi.com/Eehq4dG9pH.php/auth/admin/index
+[运行时间：0.132368s] [吞吐率：7.55req/s] [内存消耗：3,479.79kb] [文件加载：139]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002289s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002303s ]
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573608441,1574039749; PHPSESSID=tu36r1hssd7ae2mjjdbfbpei02; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1574041372; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://hospital.usiyi.com/Eehq4dG9pH.php/example/customsearch?addtabs=1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://hospital.usiyi.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '193',
+  'connection' => 'close',
+  'host' => 'hospital.usiyi.com',
+)
+[ info ] [ PARAM ] array (
+  'q_word' => 
+  array (
+    0 => '',
+  ),
+  'pageNumber' => '1',
+  'pageSize' => '10',
+  'andOr' => 'AND',
+  'orderBy' => 
+  array (
+    0 => 
+    array (
+      0 => 'username',
+      1 => 'ASC',
+    ),
+  ),
+  'searchTable' => 'tbl',
+  'showField' => 'username',
+  'keyField' => 'username',
+  'searchField' => 
+  array (
+    0 => 'username',
+  ),
+  'username' => '',
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001401s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin/lang/zh-cn/auth/admin.php
+[ info ] [ RUN ] app\admin\controller\auth\Admin->index[ D:\phpStudy\WWW\hospital\application\admin\controller\auth\Admin.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.010190s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001604s ] mysql:host=127.0.0.1;dbname=hospital;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.005628s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000631s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.006308s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001346s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin` [ RunTime:0.006605s ]
+[ sql ] [ SQL ] SELECT `id` FROM `fa_admin` [ RunTime:0.000455s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.006079s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000714s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000539s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_admin` WHERE  (  `username` LIKE '%%' ) LIMIT 1 [ RunTime:0.000447s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_admin` WHERE  (  `username` LIKE '%%' ) ORDER BY `username` ASC LIMIT 0,10 [ RunTime:0.000564s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.006354s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('权限管理 管理员管理 查看' , '{\"q_word\":[\"\"],\"pageNumber\":\"1\",\"pageSize\":\"10\",\"andOr\":\"AND\",\"orderBy\":[[\"username\",\"ASC\"]],\"searchTable\":\"tbl\",\"showField\":\"username\",\"keyField\":\"username\",\"searchField\":[\"username\"],\"username\":\"\"}' , '/Eehq4dG9pH.php/auth/admin/index' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36' , '127.0.0.1' , 1574388938) [ RunTime:0.002619s ]
+---------------------------------------------------------------
+[ 2019-11-22T10:15:48+08:00 ] 127.0.0.1 GET hospital.usiyi.com/Eehq4dG9pH.php/example/cxselect?addtabs=1
+[运行时间：0.082532s] [吞吐率：12.12req/s] [内存消耗：3,390.22kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002278s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002293s ]
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'example.cxselect',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573608441,1574039749; PHPSESSID=tu36r1hssd7ae2mjjdbfbpei02; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1574041372; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://hospital.usiyi.com/Eehq4dG9pH.php/example/cxselect?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'hospital.usiyi.com',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001520s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\common\controller\Backend->index[ D:\phpStudy\WWW\hospital\application\admin\library\traits\Backend.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\hospital\public/../application/admin\view\example\cxselect\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000372s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001495s ] mysql:host=127.0.0.1;dbname=hospital;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.006522s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000694s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.006611s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001297s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'example/cxselect' LIMIT 1 [ RunTime:0.000721s ]
+---------------------------------------------------------------
+[ 2019-11-22T10:15:48+08:00 ] 127.0.0.1 GET hospital.usiyi.com/Eehq4dG9pH.php/ajax/lang?callback=define&controllername=example.cxselect&v=1574388948
+[运行时间：0.053537s] [吞吐率：18.68req/s] [内存消耗：2,601.62kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002428s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002450s ]
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573608441,1574039749; PHPSESSID=tu36r1hssd7ae2mjjdbfbpei02; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1574041372; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://hospital.usiyi.com/Eehq4dG9pH.php/example/cxselect?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'hospital.usiyi.com',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'example.cxselect',
+  'v' => '1574388948',
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001548s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\phpStudy\WWW\hospital\application\admin\controller\Ajax.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000626s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-22T10:15:48+08:00 ] 127.0.0.1 GET hospital.usiyi.com/Eehq4dG9pH.php/ajax/area
+[运行时间：0.098891s] [吞吐率：10.11req/s] [内存消耗：3,267.38kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002542s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002557s ]
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'area',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573608441,1574039749; PHPSESSID=tu36r1hssd7ae2mjjdbfbpei02; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1574041372; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://hospital.usiyi.com/Eehq4dG9pH.php/example/cxselect?addtabs=1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'hospital.usiyi.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003586s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->area[ D:\phpStudy\WWW\hospital\application\admin\controller\Ajax.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000347s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002153s ] mysql:host=127.0.0.1;dbname=hospital;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_area` [ RunTime:0.021372s ]
+[ sql ] [ SQL ] SELECT id as value,`name` FROM `fa_area` WHERE  `pid` = 0  AND `level` = 1 [ RunTime:0.013715s ]
+---------------------------------------------------------------
+[ 2019-11-22T10:15:48+08:00 ] 127.0.0.1 GET hospital.usiyi.com/Eehq4dG9pH.php/ajax/area
+[运行时间：0.062138s] [吞吐率：16.09req/s] [内存消耗：3,267.38kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.003197s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003212s ]
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'area',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573608441,1574039749; PHPSESSID=tu36r1hssd7ae2mjjdbfbpei02; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1574041372; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://hospital.usiyi.com/Eehq4dG9pH.php/example/cxselect?addtabs=1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'hospital.usiyi.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001416s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->area[ D:\phpStudy\WWW\hospital\application\admin\controller\Ajax.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000365s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001447s ] mysql:host=127.0.0.1;dbname=hospital;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_area` [ RunTime:0.005948s ]
+[ sql ] [ SQL ] SELECT id as value,`name` FROM `fa_area` WHERE  `pid` = 0  AND `level` = 1 [ RunTime:0.000662s ]
+---------------------------------------------------------------
+[ 2019-11-22T10:15:48+08:00 ] 127.0.0.1 GET hospital.usiyi.com/Eehq4dG9pH.php/ajax/area?province=1964
+[运行时间：0.053315s] [吞吐率：18.76req/s] [内存消耗：3,266.66kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002455s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002470s ]
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'area',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573608441,1574039749; PHPSESSID=tu36r1hssd7ae2mjjdbfbpei02; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1574041372; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://hospital.usiyi.com/Eehq4dG9pH.php/example/cxselect?addtabs=1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'hospital.usiyi.com',
+)
+[ info ] [ PARAM ] array (
+  'province' => '1964',
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001423s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->area[ D:\phpStudy\WWW\hospital\application\admin\controller\Ajax.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000347s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001556s ] mysql:host=127.0.0.1;dbname=hospital;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_area` [ RunTime:0.005978s ]
+[ sql ] [ SQL ] SELECT id as value,`name` FROM `fa_area` WHERE  `pid` = 1964  AND `level` = 2 [ RunTime:0.001874s ]
+---------------------------------------------------------------
+[ 2019-11-22T10:15:48+08:00 ] 127.0.0.1 GET hospital.usiyi.com/Eehq4dG9pH.php/ajax/area?province=1964&city=1988
+[运行时间：0.054389s] [吞吐率：18.39req/s] [内存消耗：3,265.58kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002649s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002664s ]
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'area',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573608441,1574039749; PHPSESSID=tu36r1hssd7ae2mjjdbfbpei02; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1574041372; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://hospital.usiyi.com/Eehq4dG9pH.php/example/cxselect?addtabs=1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'hospital.usiyi.com',
+)
+[ info ] [ PARAM ] array (
+  'province' => '1964',
+  'city' => '1988',
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001453s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->area[ D:\phpStudy\WWW\hospital\application\admin\controller\Ajax.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000351s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001582s ] mysql:host=127.0.0.1;dbname=hospital;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_area` [ RunTime:0.006199s ]
+[ sql ] [ SQL ] SELECT id as value,`name` FROM `fa_area` WHERE  `pid` = 1988  AND `level` = 3 [ RunTime:0.000664s ]
+---------------------------------------------------------------
+[ 2019-11-22T10:15:49+08:00 ] 127.0.0.1 GET hospital.usiyi.com/Eehq4dG9pH.php/ajax/category?type=page&pid=5
+[运行时间：0.087435s] [吞吐率：11.44req/s] [内存消耗：3,265.98kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002528s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002544s ]
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'category',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573608441,1574039749; PHPSESSID=tu36r1hssd7ae2mjjdbfbpei02; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1574041372; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://hospital.usiyi.com/Eehq4dG9pH.php/example/cxselect?addtabs=1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'hospital.usiyi.com',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'page',
+  'pid' => '5',
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004517s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->category[ D:\phpStudy\WWW\hospital\application\admin\controller\Ajax.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000364s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001756s ] mysql:host=127.0.0.1;dbname=hospital;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_category` [ RunTime:0.010264s ]
+[ sql ] [ SQL ] SELECT id as value,`name` FROM `fa_category` WHERE  `status` = 'normal'  AND `type` = 'page'  AND `pid` = 5 ORDER BY `weigh` DESC,`id` DESC [ RunTime:0.000661s ]
+---------------------------------------------------------------
+[ 2019-11-22T10:15:49+08:00 ] 127.0.0.1 GET hospital.usiyi.com/Eehq4dG9pH.php/ajax/category?type=page&pid=5
+[运行时间：0.057523s] [吞吐率：17.38req/s] [内存消耗：3,265.98kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002340s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002355s ]
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'category',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573608441,1574039749; PHPSESSID=tu36r1hssd7ae2mjjdbfbpei02; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1574041372; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://hospital.usiyi.com/Eehq4dG9pH.php/example/cxselect?addtabs=1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'hospital.usiyi.com',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'page',
+  'pid' => '5',
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001477s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->category[ D:\phpStudy\WWW\hospital\application\admin\controller\Ajax.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000354s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002047s ] mysql:host=127.0.0.1;dbname=hospital;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_category` [ RunTime:0.006686s ]
+[ sql ] [ SQL ] SELECT id as value,`name` FROM `fa_category` WHERE  `status` = 'normal'  AND `type` = 'page'  AND `pid` = 5 ORDER BY `weigh` DESC,`id` DESC [ RunTime:0.000648s ]
+---------------------------------------------------------------
+[ 2019-11-22T10:15:49+08:00 ] 127.0.0.1 GET hospital.usiyi.com/Eehq4dG9pH.php/ajax/category?pid=6
+[运行时间：0.055451s] [吞吐率：18.03req/s] [内存消耗：3,265.16kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002194s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002208s ]
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'category',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573608441,1574039749; PHPSESSID=tu36r1hssd7ae2mjjdbfbpei02; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1574041372; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://hospital.usiyi.com/Eehq4dG9pH.php/example/cxselect?addtabs=1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'hospital.usiyi.com',
+)
+[ info ] [ PARAM ] array (
+  'pid' => '6',
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001505s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->category[ D:\phpStudy\WWW\hospital\application\admin\controller\Ajax.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000358s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001495s ] mysql:host=127.0.0.1;dbname=hospital;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_category` [ RunTime:0.007283s ]
+[ sql ] [ SQL ] SELECT id as value,`name` FROM `fa_category` WHERE  `status` = 'normal'  AND `pid` = 6 ORDER BY `weigh` DESC,`id` DESC [ RunTime:0.000551s ]
+---------------------------------------------------------------
+[ 2019-11-22T10:17:06+08:00 ] 127.0.0.1 GET hospital.usiyi.com/Eehq4dG9pH.php/ajax/area?province=1
+[运行时间：0.059918s] [吞吐率：16.69req/s] [内存消耗：3,264.61kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002222s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002236s ]
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'area',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573608441,1574039749; PHPSESSID=tu36r1hssd7ae2mjjdbfbpei02; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1574041372; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://hospital.usiyi.com/Eehq4dG9pH.php/example/cxselect?addtabs=1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'hospital.usiyi.com',
+)
+[ info ] [ PARAM ] array (
+  'province' => '1',
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001997s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->area[ D:\phpStudy\WWW\hospital\application\admin\controller\Ajax.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000359s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001564s ] mysql:host=127.0.0.1;dbname=hospital;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_area` [ RunTime:0.006559s ]
+[ sql ] [ SQL ] SELECT id as value,`name` FROM `fa_area` WHERE  `pid` = 1  AND `level` = 2 [ RunTime:0.000649s ]
+---------------------------------------------------------------
+[ 2019-11-22T10:17:08+08:00 ] 127.0.0.1 GET hospital.usiyi.com/Eehq4dG9pH.php/ajax/area?province=1&city=2
+[运行时间：0.060540s] [吞吐率：16.52req/s] [内存消耗：3,266.23kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002675s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002691s ]
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'area',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573608441,1574039749; PHPSESSID=tu36r1hssd7ae2mjjdbfbpei02; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1574041372; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://hospital.usiyi.com/Eehq4dG9pH.php/example/cxselect?addtabs=1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'hospital.usiyi.com',
+)
+[ info ] [ PARAM ] array (
+  'province' => '1',
+  'city' => '2',
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001481s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->area[ D:\phpStudy\WWW\hospital\application\admin\controller\Ajax.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000346s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001599s ] mysql:host=127.0.0.1;dbname=hospital;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_area` [ RunTime:0.006172s ]
+[ sql ] [ SQL ] SELECT id as value,`name` FROM `fa_area` WHERE  `pid` = 2  AND `level` = 3 [ RunTime:0.000739s ]
+---------------------------------------------------------------
+[ 2019-11-22T10:17:41+08:00 ] 127.0.0.1 GET hospital.usiyi.com/Eehq4dG9pH.php/ajax/category?pid=6
+[运行时间：0.061882s] [吞吐率：16.16req/s] [内存消耗：3,265.16kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002185s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002220s ]
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'category',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573608441,1574039749; PHPSESSID=tu36r1hssd7ae2mjjdbfbpei02; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1574041372; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://hospital.usiyi.com/Eehq4dG9pH.php/example/cxselect?addtabs=1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'hospital.usiyi.com',
+)
+[ info ] [ PARAM ] array (
+  'pid' => '6',
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001541s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->category[ D:\phpStudy\WWW\hospital\application\admin\controller\Ajax.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000434s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001604s ] mysql:host=127.0.0.1;dbname=hospital;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_category` [ RunTime:0.006391s ]
+[ sql ] [ SQL ] SELECT id as value,`name` FROM `fa_category` WHERE  `status` = 'normal'  AND `pid` = 6 ORDER BY `weigh` DESC,`id` DESC [ RunTime:0.000662s ]
+---------------------------------------------------------------
+[ 2019-11-22T10:17:48+08:00 ] 127.0.0.1 GET hospital.usiyi.com/Eehq4dG9pH.php/ajax/category?pid=7
+[运行时间：0.059637s] [吞吐率：16.77req/s] [内存消耗：3,265.18kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002239s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002254s ]
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'category',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573608441,1574039749; PHPSESSID=tu36r1hssd7ae2mjjdbfbpei02; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1574041372; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://hospital.usiyi.com/Eehq4dG9pH.php/example/cxselect?addtabs=1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'hospital.usiyi.com',
+)
+[ info ] [ PARAM ] array (
+  'pid' => '7',
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001490s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->category[ D:\phpStudy\WWW\hospital\application\admin\controller\Ajax.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000348s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001589s ] mysql:host=127.0.0.1;dbname=hospital;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_category` [ RunTime:0.006476s ]
+[ sql ] [ SQL ] SELECT id as value,`name` FROM `fa_category` WHERE  `status` = 'normal'  AND `pid` = 7 ORDER BY `weigh` DESC,`id` DESC [ RunTime:0.000608s ]
+---------------------------------------------------------------
+[ 2019-11-22T10:18:36+08:00 ] 127.0.0.1 GET hospital.usiyi.com/Eehq4dG9pH.php/addon?addtabs=1
+[运行时间：0.103255s] [吞吐率：9.68req/s] [内存消耗：3,573.14kb] [文件加载：150]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002478s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002493s ]
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'addon',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573608441,1574039749; PHPSESSID=tu36r1hssd7ae2mjjdbfbpei02; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1574041372; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://hospital.usiyi.com/Eehq4dG9pH.php/addon?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'hospital.usiyi.com',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002027s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin/lang/zh-cn/addon.php
+[ info ] [ RUN ] app\admin\controller\Addon->index[ D:\phpStudy\WWW\hospital\application\admin\controller\Addon.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\hospital\public/../application/admin\view\addon\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000420s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001764s ] mysql:host=127.0.0.1;dbname=hospital;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.006809s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000712s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.007483s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001758s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'addon' LIMIT 1 [ RunTime:0.000538s ]
+---------------------------------------------------------------
+[ 2019-11-22T10:18:36+08:00 ] 127.0.0.1 GET hospital.usiyi.com/Eehq4dG9pH.php/ajax/lang?callback=define&controllername=addon&v=1574389116
+[运行时间：0.061173s] [吞吐率：16.35req/s] [内存消耗：2,624.37kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002855s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002878s ]
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573608441,1574039749; PHPSESSID=tu36r1hssd7ae2mjjdbfbpei02; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1574041372; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://hospital.usiyi.com/Eehq4dG9pH.php/addon?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'hospital.usiyi.com',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'addon',
+  'v' => '1574389116',
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003037s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\phpStudy\WWW\hospital\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin/lang/zh-cn/addon.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000478s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-22T10:18:49+08:00 ] 127.0.0.1 GET hospital.usiyi.com/Eehq4dG9pH.php/auth/rule?addtabs=1
+[运行时间：0.093752s] [吞吐率：10.67req/s] [内存消耗：3,586.09kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002259s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002273s ]
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.rule',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573608441,1574039749; PHPSESSID=tu36r1hssd7ae2mjjdbfbpei02; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1574041372; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://hospital.usiyi.com/Eehq4dG9pH.php/auth/rule?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'hospital.usiyi.com',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001599s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin/lang/zh-cn/auth/rule.php
+[ info ] [ RUN ] app\admin\controller\auth\Rule->index[ D:\phpStudy\WWW\hospital\application\admin\controller\auth\Rule.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\hospital\public/../application/admin\view\auth\rule\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'ruledata',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000484s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001617s ] mysql:host=127.0.0.1;dbname=hospital;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.006377s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000747s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.006125s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001386s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` ORDER BY `weigh` DESC,`id` ASC [ RunTime:0.002183s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'auth/rule' LIMIT 1 [ RunTime:0.000581s ]
+---------------------------------------------------------------
+[ 2019-11-22T10:18:50+08:00 ] 127.0.0.1 GET hospital.usiyi.com/Eehq4dG9pH.php/ajax/lang?callback=define&controllername=auth.rule&v=1574389129
+[运行时间：0.052979s] [吞吐率：18.88req/s] [内存消耗：2,603.15kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004656s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004680s ]
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573608441,1574039749; PHPSESSID=tu36r1hssd7ae2mjjdbfbpei02; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1574041372; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://hospital.usiyi.com/Eehq4dG9pH.php/auth/rule?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'hospital.usiyi.com',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'auth.rule',
+  'v' => '1574389129',
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002571s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\phpStudy\WWW\hospital\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin/lang/zh-cn/auth/rule.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000589s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-22T10:18:50+08:00 ] 127.0.0.1 GET hospital.usiyi.com/Eehq4dG9pH.php/auth/rule/index?sort=weigh&order=desc&_=1574389129939
+[运行时间：0.078063s] [吞吐率：12.81req/s] [内存消耗：3,672.02kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002183s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002198s ]
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.rule',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573608441,1574039749; PHPSESSID=tu36r1hssd7ae2mjjdbfbpei02; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1574041372; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://hospital.usiyi.com/Eehq4dG9pH.php/auth/rule?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'hospital.usiyi.com',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'weigh',
+  'order' => 'desc',
+  '_' => '1574389129939',
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001394s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin/lang/zh-cn/auth/rule.php
+[ info ] [ RUN ] app\admin\controller\auth\Rule->index[ D:\phpStudy\WWW\hospital\application\admin\controller\auth\Rule.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000350s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001549s ] mysql:host=127.0.0.1;dbname=hospital;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.007135s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000586s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.006051s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001324s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` ORDER BY `weigh` DESC,`id` ASC [ RunTime:0.001669s ]
+---------------------------------------------------------------
+[ 2019-11-22T10:18:56+08:00 ] 127.0.0.1 POST hospital.usiyi.com/Eehq4dG9pH.php/auth/rule/multi/ids/144
+[运行时间：0.122547s] [吞吐率：8.16req/s] [内存消耗：3,570.70kb] [文件加载：139]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002385s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002404s ]
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.rule',
+    2 => 'multi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573608441,1574039749; PHPSESSID=tu36r1hssd7ae2mjjdbfbpei02; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1574041372; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://hospital.usiyi.com/Eehq4dG9pH.php/auth/rule?addtabs=1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://hospital.usiyi.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '33',
+  'connection' => 'close',
+  'host' => 'hospital.usiyi.com',
+)
+[ info ] [ PARAM ] array (
+  'action' => '',
+  'ids' => '144',
+  'params' => 'ismenu=0',
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002045s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin/lang/zh-cn/auth/rule.php
+[ info ] [ RUN ] app\common\controller\Backend->multi[ D:\phpStudy\WWW\hospital\application\admin\library\traits\Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.010671s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001503s ] mysql:host=127.0.0.1;dbname=hospital;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.006951s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000634s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.008397s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001386s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` ORDER BY `weigh` DESC,`id` ASC [ RunTime:0.001838s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `id` IN (144) [ RunTime:0.000621s ]
+[ sql ] [ SQL ] UPDATE `fa_auth_rule`  SET `ismenu`=0,`updatetime`=1574389136  WHERE  `id` = 144 [ RunTime:0.000573s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.007092s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"action\":\"\",\"ids\":\"144\",\"params\":\"ismenu=0\"}' , '/Eehq4dG9pH.php/auth/rule/multi/ids/144' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36' , '127.0.0.1' , 1574389136) [ RunTime:0.002416s ]
+---------------------------------------------------------------
+[ 2019-11-22T10:18:56+08:00 ] 127.0.0.1 POST hospital.usiyi.com/Eehq4dG9pH.php/index/index
+[运行时间：0.130613s] [吞吐率：7.66req/s] [内存消耗：3,523.35kb] [文件加载：148]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002220s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002234s ]
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573608441,1574039749; PHPSESSID=tu36r1hssd7ae2mjjdbfbpei02; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1574041372; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://hospital.usiyi.com/Eehq4dG9pH.php/auth/rule?ref=addtabs',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://hospital.usiyi.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '18',
+  'connection' => 'close',
+  'host' => 'hospital.usiyi.com',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'refreshmenu',
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002100s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\phpStudy\WWW\hospital\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.010880s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003504s ] mysql:host=127.0.0.1;dbname=hospital;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.006583s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000583s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.006685s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002570s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `ismenu` = 1 ORDER BY `weigh` DESC [ RunTime:0.001020s ]
+[ sql ] [ SQL ] SELECT `name`,`pid` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `ismenu` = 0  AND `name` LIKE '%/index' [ RunTime:0.000710s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.007142s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"action\":\"refreshmenu\"}' , '/Eehq4dG9pH.php/index/index' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36' , '127.0.0.1' , 1574389136) [ RunTime:0.002913s ]
+---------------------------------------------------------------
+[ 2019-11-22T10:18:56+08:00 ] 127.0.0.1 GET hospital.usiyi.com/Eehq4dG9pH.php/auth/rule/index?sort=weigh&order=desc&_=1574389129940
+[运行时间：0.109607s] [吞吐率：9.12req/s] [内存消耗：3,671.98kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.003616s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003652s ]
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.rule',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573608441,1574039749; PHPSESSID=tu36r1hssd7ae2mjjdbfbpei02; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1574041372; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://hospital.usiyi.com/Eehq4dG9pH.php/auth/rule?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'hospital.usiyi.com',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'weigh',
+  'order' => 'desc',
+  '_' => '1574389129940',
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002228s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin/lang/zh-cn/auth/rule.php
+[ info ] [ RUN ] app\admin\controller\auth\Rule->index[ D:\phpStudy\WWW\hospital\application\admin\controller\auth\Rule.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000148s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002351s ] mysql:host=127.0.0.1;dbname=hospital;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.010184s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000933s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.007371s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.003066s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` ORDER BY `weigh` DESC,`id` ASC [ RunTime:0.002660s ]
+---------------------------------------------------------------
+[ 2019-11-22T10:19:21+08:00 ] 127.0.0.1 POST hospital.usiyi.com/Eehq4dG9pH.php/addon/install
+[运行时间：0.724964s] [吞吐率：1.38req/s] [内存消耗：3,526.41kb] [文件加载：140]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000222s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.006050s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006066s ]
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'addon',
+    2 => 'install',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573608441,1574039749; PHPSESSID=tu36r1hssd7ae2mjjdbfbpei02; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1574041372; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://hospital.usiyi.com/Eehq4dG9pH.php/addon?addtabs=1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://hospital.usiyi.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '119',
+  'connection' => 'close',
+  'host' => 'hospital.usiyi.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'recommend',
+  'force' => '0',
+  'uid' => '16048',
+  'token' => '99d7d89e-8dc8-4de0-8940-a0e78ed2ad13',
+  'version' => '1.0.0',
+  'faversion' => '1.0.0.20191101_beta',
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004065s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin/lang/zh-cn/addon.php
+[ info ] [ RUN ] app\admin\controller\Addon->install[ D:\phpStudy\WWW\hospital\application\admin\controller\Addon.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.033196s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003282s ] mysql:host=127.0.0.1;dbname=hospital;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.006244s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000551s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.006787s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001563s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.021941s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('插件管理 安装' , '{\"name\":\"recommend\",\"force\":\"0\",\"uid\":\"16048\",\"token\":\"99d7d89e-8dc8-4de0-8940-a0e78ed2ad13\",\"version\":\"1.0.0\",\"faversion\":\"1.0.0.20191101_beta\"}' , '/Eehq4dG9pH.php/addon/install' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36' , '127.0.0.1' , 1574389161) [ RunTime:0.004843s ]
+---------------------------------------------------------------
+[ 2019-11-22T10:25:06+08:00 ] 127.0.0.1 GET hospital.usiyi.com/Eehq4dG9pH.php/general/database?addtabs=1
+[运行时间：0.172260s] [吞吐率：5.81req/s] [内存消耗：3,582.55kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.005385s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005406s ]
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'general.database',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573608441,1574039749; PHPSESSID=tu36r1hssd7ae2mjjdbfbpei02; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1574041372; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://hospital.usiyi.com/Eehq4dG9pH.php/general/database?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'hospital.usiyi.com',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003453s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin/lang/zh-cn/general/database.php
+[ info ] [ RUN ] app\admin\controller\general\Database->index[ D:\phpStudy\WWW\hospital\application\admin\controller\general\Database.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\hospital\public/../application/admin\view\general\database\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'tables',
+  6 => 'saved_sql',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000691s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001710s ] mysql:host=127.0.0.1;dbname=hospital;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.007525s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000779s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.007257s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001326s ]
+[ sql ] [ SQL ] SHOW TABLES [ RunTime:0.001253s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'general/database' LIMIT 1 [ RunTime:0.000523s ]
+---------------------------------------------------------------
+[ 2019-11-22T10:25:06+08:00 ] 127.0.0.1 GET hospital.usiyi.com/Eehq4dG9pH.php/ajax/lang?callback=define&controllername=general.database&v=1574389506
+[运行时间：0.048716s] [吞吐率：20.53req/s] [内存消耗：2,604.49kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002987s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003003s ]
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573608441,1574039749; PHPSESSID=tu36r1hssd7ae2mjjdbfbpei02; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1574041372; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://hospital.usiyi.com/Eehq4dG9pH.php/general/database?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'hospital.usiyi.com',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'general.database',
+  'v' => '1574389506',
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001417s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\phpStudy\WWW\hospital\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin/lang/zh-cn/general/database.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000368s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-22T10:25:31+08:00 ] 127.0.0.1 POST hospital.usiyi.com/Eehq4dG9pH.php/general.database/query
+[运行时间：0.096394s] [吞吐率：10.37req/s] [内存消耗：3,411.02kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000144s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002636s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002656s ]
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'general.database',
+    2 => 'query',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573608441,1574039749; PHPSESSID=tu36r1hssd7ae2mjjdbfbpei02; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1574041372; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://hospital.usiyi.com/Eehq4dG9pH.php/general/database?addtabs=1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://hospital.usiyi.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '48',
+  'connection' => 'close',
+  'host' => 'hospital.usiyi.com',
+)
+[ info ] [ PARAM ] array (
+  'do_action' => 'doquery',
+  'sqlquery' => 'select * from fa_user',
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001667s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin/lang/zh-cn/general/database.php
+[ info ] [ RUN ] app\admin\controller\general\Database->query[ D:\phpStudy\WWW\hospital\application\admin\controller\general\Database.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.011433s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002932s ] mysql:host=127.0.0.1;dbname=hospital;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.006062s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000651s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.006225s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001364s ]
+[ sql ] [ SQL ] select * from fa_user [ RunTime:0.006226s ]
+[ sql ] [ SQL ] select * from fa_user [ RunTime:0.000541s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.006296s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('常规管理 数据库管理 查询' , '{\"do_action\":\"doquery\",\"sqlquery\":\"select * from fa_user\"}' , '/Eehq4dG9pH.php/general.database/query' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36' , '127.0.0.1' , 1574389531) [ RunTime:0.003366s ]
+---------------------------------------------------------------
+[ 2019-11-22T10:30:24+08:00 ] 127.0.0.1 GET hospital.usiyi.com/Eehq4dG9pH.php/addon/downloaded?callback=jQuery22406565832178905116_1574389116873&sort=id&order=desc&offset=0&limit=30&filter=%7B%22type%22%3A%22local%22%2C%22faversion%22%3A%221.0.0.20191101_beta%22%7D&op=%7B%22type%22%3A%22%3D%22%2C%22faversion%22%3A%22%3D%22%7D&uid=16048&token=99d7d89e-8dc8-4de0-8940-a0e78ed2ad13&version=1.0.0.20191101_beta&_=1574389116882
+[运行时间：1.753921s] [吞吐率：0.57req/s] [内存消耗：3,445.06kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002741s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002912s ]
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'addon',
+    2 => 'downloaded',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573608441,1574039749; PHPSESSID=tu36r1hssd7ae2mjjdbfbpei02; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1574041372; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://hospital.usiyi.com/Eehq4dG9pH.php/addon?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'hospital.usiyi.com',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'jQuery22406565832178905116_1574389116873',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '30',
+  'filter' => '{"type":"local","faversion":"1.0.0.20191101_beta"}',
+  'op' => '{"type":"=","faversion":"="}',
+  'uid' => '16048',
+  'token' => '99d7d89e-8dc8-4de0-8940-a0e78ed2ad13',
+  'version' => '1.0.0.20191101_beta',
+  '_' => '1574389116882',
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001461s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin/lang/zh-cn/addon.php
+[ info ] [ RUN ] app\admin\controller\Addon->downloaded[ D:\phpStudy\WWW\hospital\application\admin\controller\Addon.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001013s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001767s ] mysql:host=127.0.0.1;dbname=hospital;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.006271s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000635s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.006300s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002277s ]

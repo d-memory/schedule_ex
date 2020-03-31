@@ -1,0 +1,79 @@
+---------------------------------------------------------------
+[ 2019-11-15T09:20:23+08:00 ] 127.0.0.1 POST hospital.usiyi.com/Eehq4dG9pH.php/index/login?url=%2FEehq4dG9pH.php%2Fdashboard%3Fref%3Daddtabs
+[ sql ] [ DB ] CONNECT:[ UseTime:0.132686s ] mysql:host=hdm721913575.my3w.com;dbname=hdm721913575_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin` [ RunTime:0.020869s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.020833s ]
+[ sql ] [ SQL ] UPDATE `fa_admin`  SET `logintime`=1573780823,`loginip`='127.0.0.1',`token`='decca071-af00-4bac-b175-f7b0e39acb31',`updatetime`=1573780823  WHERE  `id` = 1 [ RunTime:0.024386s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.021257s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('登录' , '{\"url\":\"\\/Eehq4dG9pH.php\\/dashboard?ref=addtabs\",\"__token__\":\"c8b76e810c98401c69e3ff8a59a64022\",\"username\":\"admin\",\"captcha\":\"pmar\"}' , '/Eehq4dG9pH.php/index/login?url=%2FEehq4dG9pH.php%2Fdashboard%3Fref%3Daddtabs' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36' , '127.0.0.1' , 1573780823) [ RunTime:0.042065s ]
+---------------------------------------------------------------
+[ 2019-11-15T09:20:23+08:00 ] 127.0.0.1 GET hospital.usiyi.com/Eehq4dG9pH.php/dashboard?ref=addtabs
+[ sql ] [ DB ] CONNECT:[ UseTime:0.037528s ] mysql:host=hdm721913575.my3w.com;dbname=hdm721913575_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.024684s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.024765s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.026684s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.026783s ]
+---------------------------------------------------------------
+[ 2019-11-15T09:20:24+08:00 ] 127.0.0.1 GET hospital.usiyi.com/Eehq4dG9pH.php/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.044172s ] mysql:host=hdm721913575.my3w.com;dbname=hdm721913575_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.025727s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.027082s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.027213s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.026340s ]
+[ sql ] [ SQL ] SELECT `name`,`pid` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `ismenu` = 0  AND `name` LIKE '%/index' [ RunTime:0.026726s ]
+---------------------------------------------------------------
+[ 2019-11-15T09:20:24+08:00 ] 127.0.0.1 GET hospital.usiyi.com/Eehq4dG9pH.php/dashboard?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.040053s ] mysql:host=hdm721913575.my3w.com;dbname=hdm721913575_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.026318s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.027530s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.028231s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.026358s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.026838s ]
+---------------------------------------------------------------
+[ 2019-11-15T15:02:48+08:00 ] 127.0.0.1 GET hospital.usiyi.com/Eehq4dG9pH.php/dashboard?ref=addtabs
+[运行时间：0.345488s] [吞吐率：2.89req/s] [内存消耗：2,306.32kb] [文件加载：122]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004177s ]
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573608441; PHPSESSID=bfkm7748kcjv1ega1612kn6nt3; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1573720895',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://hospital.usiyi.com/Eehq4dG9pH.php/dashboard?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'hospital.usiyi.com',
+)
+[ info ] [ PARAM ] array (
+  'ref' => 'addtabs',
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004601s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\WWW\hospital\public/../application/common\view\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001055s ]
+[ info ] [ LOG ] INIT File

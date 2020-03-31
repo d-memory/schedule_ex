@@ -1,0 +1,189 @@
+---------------------------------------------------------------
+[ 2019-11-25T11:55:54+08:00 ] 127.0.0.1 GET hospital.usiyi.com/Eehq4dG9pH.php/addon?ref=addtabs
+[运行时间：0.401870s] [吞吐率：2.49req/s] [内存消耗：2,389.52kb] [文件加载：124]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.009447s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009469s ]
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'addon',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573608441,1574039749; PHPSESSID=tu36r1hssd7ae2mjjdbfbpei02; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1574041372; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://hospital.usiyi.com/Eehq4dG9pH.php/general/database?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'hospital.usiyi.com',
+)
+[ info ] [ PARAM ] array (
+  'ref' => 'addtabs',
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005836s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\WWW\hospital\public/../application/common\view\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000753s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-25T11:55:58+08:00 ] 127.0.0.1 GET hospital.usiyi.com/Eehq4dG9pH.php/index/login?url=%2FEehq4dG9pH.php%2Faddon%3Fref%3Daddtabs
+[运行时间：0.123515s] [吞吐率：8.10req/s] [内存消耗：2,599.80kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004391s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004410s ]
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573608441,1574039749; PHPSESSID=tu36r1hssd7ae2mjjdbfbpei02; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1574041372; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://hospital.usiyi.com/Eehq4dG9pH.php/addon?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'hospital.usiyi.com',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/Eehq4dG9pH.php/addon?ref=addtabs',
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001700s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\phpStudy\WWW\hospital\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\hospital\public/../application/admin\view\index\login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000609s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-25T11:55:58+08:00 ] 127.0.0.1 GET hospital.usiyi.com/index.php?s=/captcha
+[运行时间：0.107820s] [吞吐率：9.27req/s] [内存消耗：1,875.65kb] [文件加载：111]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.003779s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003796s ]
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573608441,1574039749; PHPSESSID=tu36r1hssd7ae2mjjdbfbpei02; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1574041372; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://hospital.usiyi.com/Eehq4dG9pH.php/index/login?url=%2FEehq4dG9pH.php%2Faddon%3Fref%3Daddtabs',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'hospital.usiyi.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\phpStudy\WWW\hospital\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-25T11:56:02+08:00 ] 127.0.0.1 GET hospital.usiyi.com/Eehq4dG9pH.php/ajax/lang?callback=define&controllername=index&v=1574654158
+[运行时间：0.079866s] [吞吐率：12.52req/s] [内存消耗：2,604.83kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.003936s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003958s ]
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573608441,1574039749; PHPSESSID=tu36r1hssd7ae2mjjdbfbpei02; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1574041372; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://hospital.usiyi.com/Eehq4dG9pH.php/index/login?url=%2FEehq4dG9pH.php%2Faddon%3Fref%3Daddtabs',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'hospital.usiyi.com',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1574654158',
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001801s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\phpStudy\WWW\hospital\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\phpStudy\WWW\hospital\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000687s ]
+[ info ] [ LOG ] INIT File

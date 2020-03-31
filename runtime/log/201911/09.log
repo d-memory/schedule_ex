@@ -1,0 +1,56 @@
+---------------------------------------------------------------
+[ 2019-11-09T00:03:16+08:00 ] 127.0.0.1 GET www.hospital.usiyi.com/Eehq4dG9pH.php/user/user?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.091000s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.027000s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.041000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.027000s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.039000s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'user/user' LIMIT 1 [ RunTime:0.074000s ]
+---------------------------------------------------------------
+[ 2019-11-09T00:03:17+08:00 ] 127.0.0.1 GET www.hospital.usiyi.com/Eehq4dG9pH.php/user/user/index?sort=user.id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1573228996932
+[ sql ] [ DB ] CONNECT:[ UseTime:0.066000s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.036000s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.029000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.045000s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.054000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.081000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_group` [ RunTime:0.038000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_user` `user` LEFT JOIN `fa_user_group` `group` ON `user`.`group_id`=`group`.`id` ORDER BY `user`.`id` DESC LIMIT 1 [ RunTime:0.033000s ]
+[ sql ] [ SQL ] SELECT `user`.`id`,`user`.`group_id`,`user`.`username`,`user`.`nickname`,`user`.`password`,`user`.`salt`,`user`.`email`,`user`.`mobile`,`user`.`avatar`,`user`.`level`,`user`.`gender`,`user`.`birthday`,`user`.`bio`,`user`.`money`,`user`.`score`,`user`.`successions`,`user`.`maxsuccessions`,`user`.`prevtime`,`user`.`logintime`,`user`.`loginip`,`user`.`loginfailure`,`user`.`joinip`,`user`.`jointime`,`user`.`createtime`,`user`.`updatetime`,`user`.`token`,`user`.`status`,`user`.`verification`,group.id AS group__id,group.name AS group__name,group.rules AS group__rules,group.createtime AS group__createtime,group.updatetime AS group__updatetime,group.status AS group__status FROM `fa_user` `user` LEFT JOIN `fa_user_group` `group` ON `user`.`group_id`=`group`.`id` ORDER BY `user`.`id` DESC LIMIT 0,10 [ RunTime:0.048000s ]
+---------------------------------------------------------------
+[ 2019-11-09T00:03:22+08:00 ] 127.0.0.1 GET www.hospital.usiyi.com/Eehq4dG9pH.php/user/group?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.083000s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.027000s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.032000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.038000s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.053000s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'user/group' LIMIT 1 [ RunTime:0.051000s ]
+---------------------------------------------------------------
+[ 2019-11-09T00:03:23+08:00 ] 127.0.0.1 GET www.hospital.usiyi.com/Eehq4dG9pH.php/user/group/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1573229002570
+[ sql ] [ DB ] CONNECT:[ UseTime:0.081000s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.036000s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.060000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.065000s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.080000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_group` [ RunTime:0.109000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_user_group` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.059000s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_group` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.060000s ]
+---------------------------------------------------------------
+[ 2019-11-09T00:03:24+08:00 ] 127.0.0.1 GET www.hospital.usiyi.com/Eehq4dG9pH.php/user/rule?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.048000s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.080000s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.037000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.030000s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.054000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_rule` [ RunTime:0.023000s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_rule` ORDER BY `weigh` DESC [ RunTime:0.029000s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'user/rule' LIMIT 1 [ RunTime:0.059000s ]
+---------------------------------------------------------------
+[ 2019-11-09T00:03:25+08:00 ] 127.0.0.1 GET www.hospital.usiyi.com/Eehq4dG9pH.php/user/rule/index?sort=weigh&order=desc&_=1573229004804
+[ sql ] [ DB ] CONNECT:[ UseTime:0.091000s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.039000s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.071000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.068000s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.063000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_rule` [ RunTime:0.062000s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_rule` ORDER BY `weigh` DESC [ RunTime:0.073000s ]
